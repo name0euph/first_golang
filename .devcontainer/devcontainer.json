@@ -5,7 +5,15 @@
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"dockerComposeFile": ["../docker-compose.yml"],
 	"service": "app" ,
-	"workspaceFolder": "/go/src/work"
+	"workspaceFolder": "/go/src/work",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"GitHub.copilot-chat"
+			]
+		}
+	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
